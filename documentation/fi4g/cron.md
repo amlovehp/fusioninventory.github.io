@@ -21,6 +21,10 @@ For Linux, add in _crontab_:
 ```
 * * * * * /usr/bin/php5 /var/www/glpi/front/cron.php &>/dev/null
 ```
+OR
+```
+* * * * * /usr/bin/php7.0 /var/www/html/glpi/front/cron.php &>/dev/null
+```
 
 For windows, create in _Task Scheduler_ all 1 or 5 minutes:
 
